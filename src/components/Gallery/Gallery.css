@@ -1,0 +1,17 @@
+.gallery-container {
+    height: 66.5vh;
+    width: 100%;
+}
+.gallery-sub {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+}
+.gallery-images {
+    width: 60%;
+    background-color: lightgreen;
+}
+.gallery-text {
+    width: 40%;
+    background-color: green;
+}

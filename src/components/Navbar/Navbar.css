@@ -1,0 +1,13 @@
+
+.navbar-container {
+    position: absolute;
+    height: 5em;
+    width: 100%;
+    background-color: transparent;
+}
+.navbar-sub {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    width: 100%;
+}
