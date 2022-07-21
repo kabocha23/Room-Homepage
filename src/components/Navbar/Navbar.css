@@ -4,6 +4,7 @@
     height: 5em;
     width: 100%;
     background-color: transparent;
+    font-family: 'League Spartan', sans-serif;;
 }
 .navbar-sub {
     display: flex;
@@ -11,7 +12,6 @@
     height: 100%;
     width: 100%;
     color: white;
-    font-size: 1.1em;
 }
 
 .navbar-brand {
@@ -25,6 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1em;
 }
 .nav-menu-items {
     display: flex;

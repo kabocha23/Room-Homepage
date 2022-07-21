@@ -10,7 +10,6 @@ const Gallery = () => {
 
     return(
         <div className='gallery-container'>
-            <div className='gallery-sub'>
                 <div className='gallery-images'>
                     <img src={galleryFirst}></img>
                 </div>
@@ -20,7 +19,6 @@ const Gallery = () => {
                     <a><span>SHOP NOW</span></a>
                     <div></div>
                 </div>
-            </div>
         </div>
     )
 
