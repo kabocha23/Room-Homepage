@@ -1,5 +1,5 @@
 .about-container {
-    height: auto;
+    flex: 30%;
     width: 100%;
 }
 .about-sub {
@@ -8,7 +8,7 @@
     height: 100%;
 }
 .about-first {
-    flex-grow: 1;
+    flex: 25%;
 }
 .about-first img {
     width: 100%;
@@ -16,11 +16,11 @@
     overflow: hidden;
 }
 .about-second {
-    flex-grow: 10;
-    background-color: orange;
+    flex: 50%;
+    background-color: white;
 }
 .about-third {
-    flex-grow: 1;
+    flex: 25%;
 }
 .about-third img {
     width: 100%;
