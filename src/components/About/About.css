@@ -1,18 +1,18 @@
 .about-container {
     display: flex;
     flex-flow: row nowrap;
-    height: 34.5vh;
+    height: 35%;
     width: 100%;
     font-family: 'League Spartan', sans-serif;
+    overflow: hidden;
 }
 .about-first {
-    /* height: 100%; */
-    width: 100%;
+    /* width: 100%; */
 }
 .about-first img {
-    height: 100%;
-    width: auto;
-    float: bottom;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
 }
 
 
@@ -20,17 +20,18 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: auto;
+    min-width: 450px;
     height: 100%;
     background-color: white;
-    padding: 0 2em;
-    line-height: 1.25em;
+    padding: 0 3.55em;
+    line-height: 1.5em;
 }
 #about-second-header {
     color: black;
     font-weight: 700;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.3em;
     font-size: 1.25em;
 }
 #about-second-body {
@@ -40,11 +41,10 @@
 
 
 .about-third {
-    /* height: 100%; */
-    width: 100%;
+    /* width: 100%; */
 }
 .about-third img {
-    height: 100%;
-    width: auto;
-    float: bottom;
+    min-width: 100%;
+    min-height: 100%;
+    overflow: hidden;
 }

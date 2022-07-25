@@ -42,12 +42,11 @@ const Gallery = () => {
                     
                 </div>
                 <div className='gallery-text'>
-                    <p>{content[select][0]}</p>
+                    <h1>{content[select][0]}</h1>
                     <p>{content[select][1]}</p>
                     <a><span>SHOP NOW <img src={galleryArrow} alt='gallery-arrow'></img></span></a>
                     <div className='gallery-buttons'>
                         <button onClick={moveLeft}><span id='left-arrow'>&#60;</span></button>
-                        <span>{select}</span>
                         <button onClick={moveRight}><span id='right-arrow'>&#62;</span></button>
                     </div>
                 </div>
