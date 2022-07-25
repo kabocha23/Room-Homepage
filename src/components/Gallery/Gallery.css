@@ -1,7 +1,7 @@
 .gallery-container {
     display: flex;
     flex-flow: row wrap;
-    height: 70%;
+    height: 65vh;
     width: 100%;
     font-family: 'League Spartan', sans-serif;
 }
@@ -14,5 +14,25 @@
 }
 .gallery-text {
     width: 40%;
+    position: relative;
     background-color: white;
+}
+
+.gallery-buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.gallery-buttons button {
+    background-color: black;
+    color: white;
+    height: 6em;
+    width: 6em;
+    border: none;
+    cursor: pointer;
+}
+.gallery-buttons button:hover {
+    background-color: hsl(0, 0%, 27%);
 }
