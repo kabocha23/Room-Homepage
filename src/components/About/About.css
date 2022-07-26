@@ -2,6 +2,7 @@
     display: flex;
     flex-flow: row nowrap;
     height: 35%;
+    min-height: 265px;
     width: 100%;
     font-family: 'League Spartan', sans-serif;
     overflow: hidden;
