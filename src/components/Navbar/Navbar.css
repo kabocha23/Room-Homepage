@@ -34,8 +34,9 @@
     justify-content: space-evenly;
 }
 .nav-menu-items a {
+    padding: 0.5em 0;
     border-bottom: 1px solid transparent;
-    transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.2s;
     cursor: pointer;
 }
 .nav-menu-items a:hover {
