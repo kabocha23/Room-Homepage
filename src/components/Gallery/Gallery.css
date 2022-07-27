@@ -21,6 +21,7 @@
     justify-content: center;
     max-height: 100%;
     width: 40%;
+    min-width: 650px;
     position: relative;
     background-color: white;
     font-family: 'League Spartan', sans-serif;
