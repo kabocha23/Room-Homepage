@@ -7,9 +7,8 @@
     font-family: 'League Spartan', sans-serif;
     overflow: hidden;
 }
-.about-first {
-    /* width: 100%; */
-}
+
+
 .about-first img {
     min-width: 100%;
     min-height: 100%;
@@ -41,9 +40,6 @@
 }
 
 
-.about-third {
-    /* width: 100%; */
-}
 .about-third img {
     min-width: 100%;
     min-height: 100%;
@@ -57,12 +53,12 @@
         height: auto;
         min-height: 0;
         width: 100%;
+        max-width: 100%;
         overflow: hidden;
     }
     .about-first {
         width: 100%;
     }
-    
     
     .about-second {
         width: 100%;
@@ -71,12 +67,11 @@
         padding: 10% 0%;
     }
     #about-second-header {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 10%;
     }
     #about-second-body {
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     
     

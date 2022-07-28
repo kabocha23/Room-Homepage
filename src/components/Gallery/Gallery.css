@@ -11,6 +11,9 @@
     width: 60%;
     min-width: 50%;
 }
+.gallery-images-mob {
+    display: none;
+}
 .gallery-images img {
     min-width: 100%;
     min-height: 100%;
@@ -96,10 +99,14 @@
         min-height: 0;
     }
     .gallery-images {
+        display: none;
+    }
+    .gallery-images-mob {
+        display: flex;
         max-width: 100%;
         min-width: 0;
     }
-    .gallery-images img {
+    .gallery-images-mob img {
         min-width: 100%;
         min-height: 100%;
         overflow: hidden;
@@ -112,7 +119,7 @@
     .gallery-buttons {
         left: auto;
         right: 0;
-        top: -67px;
+        top: -5em;
     }
     .gallery-buttons button {
         background-color: black;
