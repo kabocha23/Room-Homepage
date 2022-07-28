@@ -49,3 +49,38 @@
     min-height: 100%;
     overflow: hidden;
 }
+
+
+@media (max-width: 961px) {
+    .about-container {
+        flex-flow: column nowrap;
+        height: auto;
+        min-height: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    .about-first {
+        width: 100%;
+    }
+    
+    
+    .about-second {
+        width: 100%;
+        height: auto;
+        min-width: 0;
+        padding: 10% 0%;
+    }
+    #about-second-header {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #about-second-body {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .about-third {
+        width: 100%;
+    }
+}

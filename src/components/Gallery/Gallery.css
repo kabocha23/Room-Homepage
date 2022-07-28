@@ -9,6 +9,7 @@
 .gallery-images {
     max-height: 100%;
     width: 60%;
+    min-width: 50%;
 }
 .gallery-images img {
     min-width: 100%;
@@ -21,7 +22,7 @@
     justify-content: center;
     max-height: 100%;
     width: 40%;
-    min-width: 650px;
+    max-width: 50%;
     position: relative;
     background-color: white;
     font-family: 'League Spartan', sans-serif;
@@ -86,4 +87,37 @@
 }
 #right-arrow {
     font-size: 3em;
+}
+
+@media (max-width: 961px) {
+    .gallery-container {
+        flex-flow: column nowrap;
+        height: auto;
+        min-height: 0;
+    }
+    .gallery-images {
+        max-width: 100%;
+        min-width: 0;
+    }
+    .gallery-images img {
+        min-width: 100%;
+        min-height: 100%;
+        overflow: hidden;
+    }
+    .gallery-text {
+        width: 100%;
+        max-width: 100%;
+        padding: 10% 0;
+    }
+    .gallery-buttons {
+        left: auto;
+        right: 0;
+        top: -67px;
+    }
+    .gallery-buttons button {
+        background-color: black;
+        color: white;
+        height: 5em;
+        width: 5em;
+    }
 }
