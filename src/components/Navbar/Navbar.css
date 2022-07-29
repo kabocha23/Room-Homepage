@@ -69,12 +69,14 @@
     .nav-menu-items-coll {
         display: flex;
         align-items: center;
+        text-align: center;
         margin-left: auto;
         margin-right: 1.5em;
         color: black;
     }
     .nav-menu-items-coll a {
-        margin-left: 1.5em;
+        margin-left: 1em;
+        margin-right: 1em;
         padding: 0.5em 0;
         border-bottom: 1px solid transparent;
         transition: all ease-in-out 0.2s;
