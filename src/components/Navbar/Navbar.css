@@ -65,6 +65,12 @@
         height: 6em;
         width: 100vw;
         z-index: 9;
+        transform: translate3d(0, -100px, 0);
+        transition: all 0.2s cubic-bezier(0, .52, 0, 1);
+    }
+    .nav-menu-coll.expanded {
+        transform: translate3d(0, 0, 0);
+        transition: all 0.2s cubic-bezier(0, .52, 0, 1);
     }
     .nav-menu-items-coll {
         display: flex;
@@ -111,13 +117,20 @@
     .toggle-button-btn.expanded {
         color: hsl(0, 0%, 63%);
     }
-    .nav-menu-coll {
-        transform: translate3d(0, -100px, 0);
-        transition: all 0.2s cubic-bezier(0, .52, 0, 1);
+
+    .overlay {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 8;
     }
-    .nav-menu-coll.expanded {
-        transform: translate3d(0, 0, 0);
-        transition: all 0.2s cubic-bezier(0, .52, 0, 1);
+    .no-overlay {
+        display: none;
     }
 
     .navbar-brand {
@@ -127,6 +140,6 @@
         left: 0;
         right: 0;
         text-align: center;
-        z-index: 8;
+        z-index: 7;
     }
 }

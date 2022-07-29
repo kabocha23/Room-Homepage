@@ -35,6 +35,10 @@ const Navbar = ({toggleIsNav, isNavExpanded}) => {
                         <a>contact</a>
                     </div>                
                 </div>
+                <div className={isNavExpanded 
+                        ? 'overlay' 
+                        : 'no-overlay'
+                }></div>
                 <div className='navbar-brand'>
                     <p>room</p>
                 </div>
