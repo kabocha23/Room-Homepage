@@ -9,7 +9,8 @@ const App = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   const toggleIsNav = () => {
-      setIsNavExpanded(!isNavExpanded)
+      setIsNavExpanded(!isNavExpanded);
+      document.body.classList.toggle('fixed-pos');
   }
 
   return (
